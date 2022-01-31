@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer Data Plan</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="initialize();">
+    <div class="main">
+
+      <div class="customer">
+        <div> Customers Using Plan 1: <span id="p1"></span> </div>
+        <div> Customers Using Plan 2: <span id="p2"></span> </div>
+        <div> Customers Using Plan 3: <span id="p3"></span> </div>
+        <br />
+        <div> Percent Customers Using Their Best Plan: <span id="bp"></span> </div>
+        <div> Percent Customers Not Using Their Best Plan: <span id="wp"></span> </div>
+        <br />
+      </div>
+
+      <div class="object">
+        <div> Customer </div> <hr />
+        <ul>
+          <li>Data Usage</li>
+          <li>Plan Type</li>
+          <li>Plan Cost</li>
+          <li>Cost of Plan 1</li>
+          <li>Cost of Plan 2</li>
+          <li>Cost of Plan 3</li>
+        </ul>
+      </div>
+
+      <div class="object2">
+        Best plan compares their plan to other plans to see if their plan has the cheapest cost.
+      </div>
+
+      <div class="table">
+      <table id="info" class="center">
+        <tr>
+          <th>Number</th>
+          <th>Data Usage</th>
+          <th>Their Data Plan</th>
+          <th>Their Cost</th>
+          <th>Plan 1 Cost</th>
+          <th>Plan 2 Cost</th>
+          <th>Plan 3 Cost</th>
+        </tr>
+      </table>
+      </div>
+
+    </div>
+  </body>
+</html>

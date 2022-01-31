@@ -1,0 +1,73 @@
+body
+{
+  background-color: lightcyan;
+}
+p
+{
+  text-align: center;
+  color: black;
+  font-size:125%;
+}
+div
+{
+  text-align: center;
+  color: black;
+  font-size:125%;
+}
+li
+{
+  text-align:center;
+  color: black;
+  font-size:125%;
+}
+table
+{
+  border-collapse:collapse;
+  width:75%;
+}
+th, td
+{
+  border:thick solid black;
+  padding:10px;
+  text-align: center;
+  font-size:125%;
+}
+.center
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.main
+{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 400px 100%;
+}
+.customer
+{
+  grid-row-start:1;
+  grid-row-end:2;
+  grid-column-start:1;
+  grid-column-end:3;
+}
+.object
+{
+  grid-row-start:2;
+  grid-row-end:3;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+.object2
+{
+  grid-row-start:2;
+  grid-row-end:3;
+  grid-column-start:2;
+  grid-column-end:3;
+}
+.table
+{
+  grid-row-start:3;
+  grid-row-end:4;
+  grid-column-start:1;
+  grid-column-end:3;
+}
